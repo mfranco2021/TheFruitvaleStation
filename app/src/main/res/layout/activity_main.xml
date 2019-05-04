@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/daly_city"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:background="#0064a8"
+        android:text="Daly City"
+        android:textSize="40sp"
+        android:onClick="openDalyCity"/>
+    <TextView
+        android:id="@+id/dublin_pleasanton"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:background="#0064a8"
+        android:textSize="40sp"
+        android:text="Dublin/Pleasanton"/>
+    <TextView
+        android:id="@+id/richmond"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:background="#0064a8"
+        android:textSize="40sp"
+        android:text="Richmond"/>
+    <TextView
+        android:id="@+id/warm_springs"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:background="#0064a8"
+        android:textSize="40sp"
+        android:text="Warm Springs"/>
+</LinearLayout>
